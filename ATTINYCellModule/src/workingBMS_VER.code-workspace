@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "C:\\Users\\mudiaga\\Desktop\\diyBMSv4Code-Tag-2021-03-29-15-35\\ESPController"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"name": "smart_s",
+			"path": "..\\..\\..\\..\\..\\PlatformIO\\Projects\\smart_s"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"regex": "cpp",
+			"xlocnum": "cpp"
+		}
+	}
+}

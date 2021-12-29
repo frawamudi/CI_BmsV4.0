@@ -1,0 +1,83 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "C:/Users/mudiaga/Documents/myBms/diyBMSv4Code/ATTINYCellModule/include",
+                "C:/Users/mudiaga/Documents/myBms/diyBMSv4Code/ATTINYCellModule/src",
+                "C:/Users/mudiaga/Documents/myBms/diyBMSv4Code/ATTINYCellModule/lib/Steinhart",
+                "C:/Users/mudiaga/Documents/myBms/diyBMSv4Code/ATTINYCellModule/lib/settings",
+                "C:/Users/mudiaga/.platformio/packages/framework-arduino-avr-attiny@src-209b257cfb3a028a28fd39aba1b09444/libraries/EEPROM",
+                "C:/Users/mudiaga/Documents/myBms/diyBMSv4Code/ATTINYCellModule/lib/crc16",
+                "C:/Users/mudiaga/Documents/myBms/diyBMSv4Code/ATTINYCellModule/.pio/libdeps/V400/SerialEncoder/src",
+                "C:/Users/mudiaga/Documents/myBms/diyBMSv4Code/ATTINYCellModule/.pio/libdeps/V400/FastPID/src",
+                "C:/Users/mudiaga/.platformio/packages/framework-arduino-avr-attiny@src-209b257cfb3a028a28fd39aba1b09444/cores/tinymodern",
+                "C:/Users/mudiaga/.platformio/packages/framework-arduino-avr-attiny@src-209b257cfb3a028a28fd39aba1b09444/libraries/ATTinyCore/src",
+                "C:/Users/mudiaga/.platformio/packages/framework-arduino-avr-attiny@src-209b257cfb3a028a28fd39aba1b09444/libraries/SPI",
+                "C:/Users/mudiaga/.platformio/packages/framework-arduino-avr-attiny@src-209b257cfb3a028a28fd39aba1b09444/libraries/Servo/src",
+                "C:/Users/mudiaga/.platformio/packages/framework-arduino-avr-attiny@src-209b257cfb3a028a28fd39aba1b09444/libraries/Servo_ATTinyCore/src",
+                "C:/Users/mudiaga/.platformio/packages/framework-arduino-avr-attiny@src-209b257cfb3a028a28fd39aba1b09444/libraries/SoftwareSerial",
+                "C:/Users/mudiaga/.platformio/packages/framework-arduino-avr-attiny@src-209b257cfb3a028a28fd39aba1b09444/libraries/Wire/src",
+                "C:/Users/mudiaga/.platformio/packages/framework-arduino-avr-attiny@src-209b257cfb3a028a28fd39aba1b09444/libraries/tinyNeoPixel",
+                "C:/Users/mudiaga/.platformio/packages/framework-arduino-avr-attiny@src-209b257cfb3a028a28fd39aba1b09444/libraries/tinyNeoPixel_Static",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "C:/Users/mudiaga/Documents/myBms/diyBMSv4Code/ATTINYCellModule/include",
+                    "C:/Users/mudiaga/Documents/myBms/diyBMSv4Code/ATTINYCellModule/src",
+                    "C:/Users/mudiaga/Documents/myBms/diyBMSv4Code/ATTINYCellModule/lib/Steinhart",
+                    "C:/Users/mudiaga/Documents/myBms/diyBMSv4Code/ATTINYCellModule/lib/settings",
+                    "C:/Users/mudiaga/.platformio/packages/framework-arduino-avr-attiny@src-209b257cfb3a028a28fd39aba1b09444/libraries/EEPROM",
+                    "C:/Users/mudiaga/Documents/myBms/diyBMSv4Code/ATTINYCellModule/lib/crc16",
+                    "C:/Users/mudiaga/Documents/myBms/diyBMSv4Code/ATTINYCellModule/.pio/libdeps/V400/SerialEncoder/src",
+                    "C:/Users/mudiaga/Documents/myBms/diyBMSv4Code/ATTINYCellModule/.pio/libdeps/V400/FastPID/src",
+                    "C:/Users/mudiaga/.platformio/packages/framework-arduino-avr-attiny@src-209b257cfb3a028a28fd39aba1b09444/cores/tinymodern",
+                    "C:/Users/mudiaga/.platformio/packages/framework-arduino-avr-attiny@src-209b257cfb3a028a28fd39aba1b09444/libraries/ATTinyCore/src",
+                    "C:/Users/mudiaga/.platformio/packages/framework-arduino-avr-attiny@src-209b257cfb3a028a28fd39aba1b09444/libraries/SPI",
+                    "C:/Users/mudiaga/.platformio/packages/framework-arduino-avr-attiny@src-209b257cfb3a028a28fd39aba1b09444/libraries/Servo/src",
+                    "C:/Users/mudiaga/.platformio/packages/framework-arduino-avr-attiny@src-209b257cfb3a028a28fd39aba1b09444/libraries/Servo_ATTinyCore/src",
+                    "C:/Users/mudiaga/.platformio/packages/framework-arduino-avr-attiny@src-209b257cfb3a028a28fd39aba1b09444/libraries/SoftwareSerial",
+                    "C:/Users/mudiaga/.platformio/packages/framework-arduino-avr-attiny@src-209b257cfb3a028a28fd39aba1b09444/libraries/Wire/src",
+                    "C:/Users/mudiaga/.platformio/packages/framework-arduino-avr-attiny@src-209b257cfb3a028a28fd39aba1b09444/libraries/tinyNeoPixel",
+                    "C:/Users/mudiaga/.platformio/packages/framework-arduino-avr-attiny@src-209b257cfb3a028a28fd39aba1b09444/libraries/tinyNeoPixel_Static",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50203",
+                "ARDUINO_AVR_ATTINYX41",
+                "LOWERCAL",
+                "WIRE_MASTER_ONLY",
+                "NEW_PINOUT",
+                "DIYBMSMODULEVERSION=400",
+                "MV_PER_ADC=2.0",
+                "INT_BCOEFFICIENT=4150",
+                "EXT_BCOEFFICIENT=4150",
+                "LOAD_RESISTANCE=4.4",
+                "BAUD=2400",
+                "F_CPU=2000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "CLOCK_SOURCE=0",
+                "NEOPIXELPORT=PORTA",
+                "__AVR_ATtiny841__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "C:/Users/mudiaga/.platformio/packages/toolchain-atmelavr@1.70300.191015/bin/avr-gcc.exe",
+            "compilerArgs": [
+                "-mmcu=attiny841",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
